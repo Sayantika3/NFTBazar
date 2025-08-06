@@ -10,8 +10,8 @@ import { Web3Context } from "../components/web3Context";
 
 function Create() {
 
-  const nftAdd="0xF0638544bF344b4A6E15e5730c91D38ddaA71682";
-  const Madd="0x02A36De308B6D9D42CC450Cc20b553A99874fC27";
+  const nftAdd=//"<nft contract address>";
+  const Madd=//"<marketplace contract address>";
   const [file, setFile] = useState(null);
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
