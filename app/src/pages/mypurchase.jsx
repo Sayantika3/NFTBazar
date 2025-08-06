@@ -12,7 +12,8 @@ function MyPurchase() {
   const [marketcontract, setMarket] = useState(null);
   const [loading, setLoading] = useState(true);
 const nftAdd=//"<nft contract address>";
-  const Madd=//"<marketplace contract address>";  let Purchase=[];
+  const Madd=//"<marketplace contract address>";  
+  let Purchase=[];
 
   useEffect(() => {
     if (signer) {
@@ -158,3 +159,4 @@ const nftAdd=//"<nft contract address>";
 }
 
 export default MyPurchase;
+
